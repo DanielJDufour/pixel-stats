@@ -1,0 +1,32 @@
+{
+  "name": "pixel-stats",
+  "version": "0.0.0",
+  "description": "Calculate Statistics (histogram, max, mean, min, mode, range, sum) for Imagery Pixels",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write index.js test.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/pixel-stats.git"
+  },
+  "keywords": [
+    "geotiff",
+    "img",
+    "imagery",
+    "pixel",
+    "satellite",
+    "stats",
+    "statistics"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/pixel-stats/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/pixel-stats#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  }
+}
