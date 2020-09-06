@@ -4,8 +4,11 @@
 # pixel-stats
 Calculate Statistics for Imagery Pixels
 
+# features
+- This package currently supports the following statistics: histogram, min, max, mean, mode, and sum.
+- No-data values
+
 # known limitations
-This package currently supports the following statistics: histogram, min, max, mean, mode, and sum.
 Support for standard deviation and median is forthcoming.
 
 # install
@@ -26,6 +29,7 @@ const options = {
     median: true,
     mode: true,
     min: true,
+    noDataValue: 99,
     sum: false // don't return the sum of each band
 };
 

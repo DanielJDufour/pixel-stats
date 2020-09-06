@@ -24,6 +24,15 @@ const bands = [
   ],
 ];
 
+test("calculating min with no data value of zero", (t) => {
+  const options = {
+    noDataValue: 0,
+    min: true,
+  };
+  const stats = calc(bands, options);
+  t.deepEqual(stats, { mins: [24, 12, 12] });
+});
+
 test("calculating min, max and ranges", (t) => {
   const options = {
     interleaved: false,
