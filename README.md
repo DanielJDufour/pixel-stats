@@ -1,5 +1,4 @@
-
-:warning: This library is a work in progress.
+:warning: This library has been superseded by the much better [calc-image-stats](https://github.com/danieljdufour/calc-image-stats).
 
 # pixel-stats
 Calculate Statistics for Imagery Pixels
